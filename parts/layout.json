@@ -1,0 +1,683 @@
+{
+ "canvas": {
+  "w": 2000,
+  "h": 2000
+ },
+ "psd": "parts.psd",
+ "psd_clipbaked": "parts_clipbaked.psd",
+ "note": "bbox = [x0,y0,x1,y1] in sheet px, x1/y1 exclusive; z 0 = back; clip = runtime clip parent",
+ "cubism_note": "Cubism Editor does not import Photoshop clipping. After importing parts.psd set the clipping of each iris art mesh to its eye white (clip field below). The PNGs and parts.psd hold the FULL iris (it extends under the lids for eyeball movement). parts_clipbaked.psd has the clip applied (exact rest pose everywhere, no hidden iris).",
+ "parts": [
+  {
+   "id": "tail_tip",
+   "file": "00_tail_tip.png",
+   "z": 0,
+   "z_canonical": 0,
+   "bbox": [
+    453,
+    1406,
+    853,
+    1897
+   ],
+   "left": 453,
+   "top": 1406,
+   "width": 400,
+   "height": 491,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "tail_main",
+   "file": "01_tail_main.png",
+   "z": 1,
+   "z_canonical": 1,
+   "bbox": [
+    1000,
+    804,
+    1549,
+    1666
+   ],
+   "left": 1000,
+   "top": 804,
+   "width": 549,
+   "height": 862,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "ponytail",
+   "file": "02_ponytail.png",
+   "z": 2,
+   "z_canonical": 2,
+   "bbox": [
+    1054,
+    65,
+    1264,
+    238
+   ],
+   "left": 1054,
+   "top": 65,
+   "width": 210,
+   "height": 173,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "hair_back",
+   "file": "03_hair_back.png",
+   "z": 3,
+   "z_canonical": 3,
+   "bbox": [
+    848,
+    101,
+    1153,
+    421
+   ],
+   "left": 848,
+   "top": 101,
+   "width": 305,
+   "height": 320,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "feet",
+   "file": "04_feet.png",
+   "z": 4,
+   "z_canonical": 4,
+   "bbox": [
+    690,
+    1707,
+    1322,
+    1979
+   ],
+   "left": 690,
+   "top": 1707,
+   "width": 632,
+   "height": 272,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "neck",
+   "file": "05_neck.png",
+   "z": 5,
+   "z_canonical": 5,
+   "bbox": [
+    912,
+    298,
+    1088,
+    550
+   ],
+   "left": 912,
+   "top": 298,
+   "width": 176,
+   "height": 252,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "torso",
+   "file": "06_torso.png",
+   "z": 6,
+   "z_canonical": 6,
+   "bbox": [
+    805,
+    396,
+    1187,
+    901
+   ],
+   "left": 805,
+   "top": 396,
+   "width": 382,
+   "height": 505,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "hakama",
+   "file": "07_hakama.png",
+   "z": 7,
+   "z_canonical": 7,
+   "bbox": [
+    722,
+    817,
+    1344,
+    1794
+   ],
+   "left": 722,
+   "top": 817,
+   "width": 622,
+   "height": 977,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "arm_vl",
+   "file": "08_arm_vl.png",
+   "z": 8,
+   "z_canonical": 8,
+   "bbox": [
+    696,
+    465,
+    882,
+    1222
+   ],
+   "left": 696,
+   "top": 465,
+   "width": 186,
+   "height": 757,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "arm_vr",
+   "file": "09_arm_vr.png",
+   "z": 9,
+   "z_canonical": 9,
+   "bbox": [
+    1008,
+    449,
+    1366,
+    985
+   ],
+   "left": 1008,
+   "top": 449,
+   "width": 358,
+   "height": 536,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "face",
+   "file": "10_face.png",
+   "z": 10,
+   "z_canonical": 10,
+   "bbox": [
+    876,
+    170,
+    1102,
+    412
+   ],
+   "left": 876,
+   "top": 170,
+   "width": 226,
+   "height": 242,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "fx_blush",
+   "file": "ov11_fx_blush.png",
+   "z": 11,
+   "z_canonical": null,
+   "bbox": [
+    896,
+    311,
+    1038,
+    334
+   ],
+   "left": 896,
+   "top": 311,
+   "width": 142,
+   "height": 23,
+   "clip": null,
+   "psd_clipping": false,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 11,
+   "after": "face"
+  },
+  {
+   "id": "fx_pale",
+   "file": "ov12_fx_pale.png",
+   "z": 12,
+   "z_canonical": null,
+   "bbox": [
+    875,
+    169,
+    1068,
+    318
+   ],
+   "left": 875,
+   "top": 169,
+   "width": 193,
+   "height": 149,
+   "clip": null,
+   "psd_clipping": false,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 12,
+   "after": "fx_blush"
+  },
+  {
+   "id": "mouth_inner",
+   "file": "11_mouth_inner.png",
+   "z": 13,
+   "z_canonical": 11,
+   "bbox": [
+    918,
+    344,
+    995,
+    373
+   ],
+   "left": 918,
+   "top": 344,
+   "width": 77,
+   "height": 29,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "mouth_lower",
+   "file": "12_mouth_lower.png",
+   "z": 14,
+   "z_canonical": 12,
+   "bbox": [
+    918,
+    350,
+    995,
+    374
+   ],
+   "left": 918,
+   "top": 350,
+   "width": 77,
+   "height": 24,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "mouth_upper",
+   "file": "13_mouth_upper.png",
+   "z": 15,
+   "z_canonical": 13,
+   "bbox": [
+    917,
+    343,
+    996,
+    367
+   ],
+   "left": 917,
+   "top": 343,
+   "width": 79,
+   "height": 24,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "eye_white_vl",
+   "file": "14_eye_white_vl.png",
+   "z": 16,
+   "z_canonical": 14,
+   "bbox": [
+    885,
+    279,
+    919,
+    305
+   ],
+   "left": 885,
+   "top": 279,
+   "width": 34,
+   "height": 26,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "iris_vl",
+   "file": "15_iris_vl.png",
+   "z": 17,
+   "z_canonical": 15,
+   "bbox": [
+    898,
+    282,
+    918,
+    304
+   ],
+   "left": 898,
+   "top": 282,
+   "width": 20,
+   "height": 22,
+   "clip": "eye_white_vl",
+   "psd_clipping": true
+  },
+  {
+   "id": "fx_heart_vl",
+   "file": "ov18_fx_heart_vl.png",
+   "z": 18,
+   "z_canonical": null,
+   "bbox": [
+    899,
+    287,
+    918,
+    305
+   ],
+   "left": 899,
+   "top": 287,
+   "width": 19,
+   "height": 18,
+   "clip": "eye_white_vl",
+   "psd_clipping": true,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 18,
+   "after": "iris_vl"
+  },
+  {
+   "id": "fx_star_vl",
+   "file": "ov19_fx_star_vl.png",
+   "z": 19,
+   "z_canonical": null,
+   "bbox": [
+    896,
+    282,
+    919,
+    306
+   ],
+   "left": 896,
+   "top": 282,
+   "width": 23,
+   "height": 24,
+   "clip": "eye_white_vl",
+   "psd_clipping": true,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 19,
+   "after": "fx_heart_vl"
+  },
+  {
+   "id": "lash_lower_vl",
+   "file": "16_lash_lower_vl.png",
+   "z": 20,
+   "z_canonical": 16,
+   "bbox": [
+    896,
+    302,
+    909,
+    306
+   ],
+   "left": 896,
+   "top": 302,
+   "width": 13,
+   "height": 4,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "lash_upper_vl",
+   "file": "17_lash_upper_vl.png",
+   "z": 21,
+   "z_canonical": 17,
+   "bbox": [
+    884,
+    275,
+    919,
+    301
+   ],
+   "left": 884,
+   "top": 275,
+   "width": 35,
+   "height": 26,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "fx_swirl_vl",
+   "file": "ov22_fx_swirl_vl.png",
+   "z": 22,
+   "z_canonical": null,
+   "bbox": [
+    879,
+    269,
+    925,
+    312
+   ],
+   "left": 879,
+   "top": 269,
+   "width": 46,
+   "height": 43,
+   "clip": null,
+   "psd_clipping": false,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 22,
+   "after": "lash_upper_vl"
+  },
+  {
+   "id": "eye_white_vr",
+   "file": "18_eye_white_vr.png",
+   "z": 23,
+   "z_canonical": 18,
+   "bbox": [
+    962,
+    277,
+    1020,
+    303
+   ],
+   "left": 962,
+   "top": 277,
+   "width": 58,
+   "height": 26,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "iris_vr",
+   "file": "19_iris_vr.png",
+   "z": 24,
+   "z_canonical": 19,
+   "bbox": [
+    977,
+    267,
+    1009,
+    301
+   ],
+   "left": 977,
+   "top": 267,
+   "width": 32,
+   "height": 34,
+   "clip": "eye_white_vr",
+   "psd_clipping": true
+  },
+  {
+   "id": "fx_heart_vr",
+   "file": "ov25_fx_heart_vr.png",
+   "z": 25,
+   "z_canonical": null,
+   "bbox": [
+    977,
+    276,
+    1009,
+    304
+   ],
+   "left": 977,
+   "top": 276,
+   "width": 32,
+   "height": 28,
+   "clip": "eye_white_vr",
+   "psd_clipping": true,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 25,
+   "after": "iris_vr"
+  },
+  {
+   "id": "fx_star_vr",
+   "file": "ov26_fx_star_vr.png",
+   "z": 26,
+   "z_canonical": null,
+   "bbox": [
+    976,
+    270,
+    1011,
+    303
+   ],
+   "left": 976,
+   "top": 270,
+   "width": 35,
+   "height": 33,
+   "clip": "eye_white_vr",
+   "psd_clipping": true,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 26,
+   "after": "fx_heart_vr"
+  },
+  {
+   "id": "lash_lower_vr",
+   "file": "20_lash_lower_vr.png",
+   "z": 27,
+   "z_canonical": 20,
+   "bbox": [
+    962,
+    296,
+    1004,
+    304
+   ],
+   "left": 962,
+   "top": 296,
+   "width": 42,
+   "height": 8,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "lash_upper_vr",
+   "file": "21_lash_upper_vr.png",
+   "z": 28,
+   "z_canonical": 21,
+   "bbox": [
+    962,
+    275,
+    1022,
+    296
+   ],
+   "left": 962,
+   "top": 275,
+   "width": 60,
+   "height": 21,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "fx_swirl_vr",
+   "file": "ov29_fx_swirl_vr.png",
+   "z": 29,
+   "z_canonical": null,
+   "bbox": [
+    956,
+    269,
+    1028,
+    310
+   ],
+   "left": 956,
+   "top": 269,
+   "width": 72,
+   "height": 41,
+   "clip": null,
+   "psd_clipping": false,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 29,
+   "after": "lash_upper_vr"
+  },
+  {
+   "id": "brow_vl",
+   "file": "22_brow_vl.png",
+   "z": 30,
+   "z_canonical": 22,
+   "bbox": [
+    886,
+    247,
+    921,
+    276
+   ],
+   "left": 886,
+   "top": 247,
+   "width": 35,
+   "height": 29,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "brow_vr",
+   "file": "23_brow_vr.png",
+   "z": 31,
+   "z_canonical": 23,
+   "bbox": [
+    943,
+    246,
+    1002,
+    284
+   ],
+   "left": 943,
+   "top": 246,
+   "width": 59,
+   "height": 38,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "hair_front",
+   "file": "24_hair_front.png",
+   "z": 32,
+   "z_canonical": 24,
+   "bbox": [
+    831,
+    93,
+    1132,
+    416
+   ],
+   "left": 831,
+   "top": 93,
+   "width": 301,
+   "height": 323,
+   "clip": null,
+   "psd_clipping": false
+  },
+  {
+   "id": "fx_sweat",
+   "file": "ov33_fx_sweat.png",
+   "z": 33,
+   "z_canonical": null,
+   "bbox": [
+    1068,
+    213,
+    1103,
+    283
+   ],
+   "left": 1068,
+   "top": 213,
+   "width": 35,
+   "height": 70,
+   "clip": null,
+   "psd_clipping": false,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 33,
+   "after": "hair_front"
+  },
+  {
+   "id": "fx_anger",
+   "file": "ov34_fx_anger.png",
+   "z": 34,
+   "z_canonical": null,
+   "bbox": [
+    1027,
+    113,
+    1078,
+    164
+   ],
+   "left": 1027,
+   "top": 113,
+   "width": 51,
+   "height": 51,
+   "clip": null,
+   "psd_clipping": false,
+   "overlay": true,
+   "psd_hidden": true,
+   "z_full": 34,
+   "after": "fx_sweat"
+  }
+ ],
+ "overlay_note": "parts with \"overlay\": true are expression overlays (fx_*): invisible at rest, faded in by a parameter (ParamBlush, ParamEyeHeart, ...). They are HIDDEN layers in both PSDs (switch them visible / give them parameter-driven opacity after import); z_canonical is null for them, z_full = index in common.FULL_Z_ORDER, after = the layer they are drawn directly above. fx_heart_* / fx_star_* clip to the eye white like the iris (Cubism: set their Clipping ID too)."
+}
